@@ -50,7 +50,7 @@ export default function Header() {
                     <Link className="hover:text-[#FC6351]" to='/'>Home</Link>
                     <Link className="hover:text-[#FC6351]" to='/how_it_work'>How it Works</Link>
                     <Link className="hover:text-[#FC6351]" to='/esources'>Resources</Link>
-                    <Link to="/" className="p-4 py-2 bg-[#FC6351] text-white rounded-md shadow-md shadow-[#FF0E0E] flex gap-2 items-center justify-center hover:opacity-90">
+                    <Link to="/" className="p-4 py-2 ml-4 bg-[#FC6351] text-white rounded-md shadow-md shadow-[#FF0E0E] flex gap-2 items-center justify-center hover:opacity-90">
                         <SiShopify className=" w-4 h-4" />
                         <span>Install Customizer</span>
                     </Link>
